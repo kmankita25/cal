@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+<title>simplecalculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="registerServlet" method="post">
+<div class="container">
+<div class="simplecalculator">
+<input type="text" placeholder="0" name="hello"  id="ankitacal">
+<div class="ankita" onclick="clear1()" name="clear"> C</div>
+<div class="anki" onclick="del()"name="delete">DEL</div>
+<div class="anki" onclick="cal('%')"name="%">%</div>
+<div class="anki" onclick="cal('/')"name="/">/</div>
+<div class="anki" onclick="cal('7')"name="7">7</div>
+<div class="anki" onclick="cal('8')"name="8">8</div>
+<div class="anki" onclick="cal('9')"name="9">9</div>
+<div class="anki" onclick="cal('*')"name="*">*</div>
+<div class="anki" onclick="cal('4')"name="4">4</div>
+<div class="anki" onclick="cal('5')"name="5">5</div>
+<div class="anki" onclick="cal('6')"name="6">6</div>
+<div class="anki" onclick="cal('-')"name="-">-</div>
+<div class="anki" onclick="cal('1')"name="1">1</div>
+<div class="anki" onclick="cal('2')"name="2">2</div>
+<div class="anki" onclick="cal('3')"name="3">3</div>
+<div class="anki" onclick="cal('+')"name="+">+</div>
+<div class="anki" onclick="cal('.')"name=".">.</div>
+<div class="anki" onclick="cal('0')"name="0">0</div>
+<button onclick="calculate()" class="equal">=</button>
+</div>
+</div>
+</form>
+<script src="app.js">
+</script>
+</body>
+</html>
